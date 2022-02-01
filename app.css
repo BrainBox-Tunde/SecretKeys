@@ -1,0 +1,35 @@
+* {
+ box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+}
+main {
+ min-width: 250px;
+ max-width: 960px;
+ padding: 30px; 
+ margin: 0 auto;
+}
+
+.lightbulb {
+ float: left;
+ position: relative;
+ width: 25%;
+ padding: 10px; 
+ border: 1px solid grey;
+ cursor: pointer;
+}
+
+.bulb-on {
+ background-color: yellow;
+}
+
+/* Manually set outline color 
+for a11y */
+input[type="image"]:focus {
+ outline: auto 2px Highlight;
+ outline: auto 5px -webkit-focus-ring-color;
+ z-index: 1;
+ 
+}

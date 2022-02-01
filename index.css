@@ -1,0 +1,28 @@
+button {
+ font-size: 20px;
+ padding: 10px;
+}
+
+button:hover, li:hover {
+ cursor: pointer; 
+}
+
+ul {
+ width: 300px;
+ list-style: none;
+ padding-left: 20px;
+}
+
+li {
+ color: white;
+ text-align: center;
+ font-size: 26px;
+ background-color: blue;
+ padding: 20px;
+ border: 1px solid black;
+ margin-bottom: 10px;
+}
+
+.original {
+ background-color: orange;
+}
